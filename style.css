@@ -1,0 +1,1197 @@
+html {
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+
+/* NAV */
+
+#navDropDown{
+    display: none;
+}
+
+
+
+#btnNav:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+#btnNavAssinatura:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+
+#btnNavPesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80%;
+
+
+
+    width: 45px;
+    height: 45px;
+
+
+
+}
+
+#btnNavPesquisa:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+
+#btnNavIdioma:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+
+
+}
+
+
+
+#btnNavIdioma p{
+   margin: 0;
+
+
+}
+
+#btnNavIdioma{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+     
+ 
+ }
+
+
+
+
+
+
+
+ #btnNavIdioma2 p{
+    margin: 0;
+ 
+ 
+ }
+ 
+ #btnNavIdioma2{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     text-align: center;
+     align-items: center;
+      
+  
+  }
+
+
+
+
+  #menuDropDown p{
+    margin: 0;
+     
+  }
+
+
+
+
+
+
+  #menuDropDown{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+     
+  }
+
+
+
+
+
+
+
+
+
+#btnIdioma {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+
+
+}
+
+#btnIdioma:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+
+
+}
+
+
+
+#btnConta {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+
+
+}
+
+#btnConta:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+
+
+}
+
+
+
+
+#btnNavCategoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80%;
+
+
+    width: 45px;
+    height: 45px;
+
+}
+
+
+#btnNavCategoria:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+#btnNavCategoria:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+
+
+#btnNavConta {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 80%;
+
+
+    width: 45px;
+    height: 45px;
+
+
+}
+
+#btnNavConta:hover {
+
+    background-color: white;
+
+}
+
+#btnNavPrime:hover {
+
+    background-color: rgb(26, 152, 255)
+}
+
+
+
+
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+
+#dropdown-menu {
+    display: none;
+    flex-wrap: wrap;
+   
+    
+
+    margin: 1rem;
+    border-radius: 12px;
+    background-color: rgba(27, 27, 27, 0.925);
+    
+
+}
+
+ 
+
+#dropdown-conta {
+    display: none;
+
+    margin: 1rem;
+    border-radius: 12px;
+    background-color: rgba(27, 27, 27, 0.925);
+
+
+
+}
+
+.seraQueVaiPraDireita {
+
+    position: absolute;
+    right: 0;
+    z-index: 1;
+
+}
+
+
+
+.divIdioma {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+
+
+}
+
+.conta {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+
+}
+
+#btnNavPrime{
+    background-color: #157bcf;
+    
+}
+
+#btnNavPrime p{
+    margin: 0;
+    
+}
+
+
+
+/* NAV */
+
+
+
+
+
+
+
+
+
+/* CENTRO */
+
+.imagemFundo1 {
+    position: relative; /* Establishes positioning context */
+    display: flex;
+    width: 100%;
+    max-width: 100vw;
+}
+
+
+
+
+
+.centro {
+    position: absolute;
+    
+    display: flex;
+    flex-direction: column;
+
+     
+
+   
+     
+     
+     
+     
+    color: white;
+    width: 55%;
+    height: 100%; 
+
+    
+   
+     
+    top: 0; /* Aligns to the top */
+    left: 0; /* Aligns to the left */
+    
+    
+   
+  
+     
+    /* Align to the top */
+     
+    /* Align to the left */
+    background-image: linear-gradient(to right, rgb(0, 0, 0)73%, rgba(0, 0, 0, 0.027) 100%);
+
+}
+
+
+.centro h2{
+    font-size: 2.5vw;
+
+}
+
+.centro h5{
+    font-size: 1.5vw;
+
+}
+
+.centro h6{
+    font-size: 0.7vw;
+
+}
+
+.centro p{
+     font-size: 0.8vw;
+}
+
+.teste{
+    position: absolute;
+    top: 4vw;
+    left: 3vw;
+}
+
+ 
+
+/* .conteudoCentro{
+
+    position: absolute;
+     
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+     
+    
+    margin-top: 70px;
+    margin-left: 60px;
+    width: 80%;
+
+     
+    
+} */
+
+#btnCentro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 121, 175);
+    word-wrap: break-word;
+    font-size: 1vw;
+     
+
+
+    text-align: center;
+
+    width: 14vw;
+
+    
+
+    max-width: 20vw;
+    max-height: 4vw;
+
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+ 
+.centro2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+   
+     
+     
+    
+    
+    
+}
+
+.botoesCentro2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 13px;
+    margin-bottom: 13px;
+     
+}
+
+
+
+
+.logoCentro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+
+
+.btnCentroLogo{
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+
+.btnCentroLogo img{
+    margin: 0.2rem;
+    width: 13vw;
+    
+    
+    
+     
+     
+}
+
+
+
+.textoCentro2{
+    
+    flex-direction: row;
+    width: 40vw;
+    margin-top: 30px;
+     
+
+  
+     
+     
+    
+}
+
+
+
+
+.btnCentroLogo :hover{
+    box-shadow: 0px 0px 17px 6px rgba(0,0,0),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CENTRO */
+
+
+
+
+
+
+
+/* CENTRO3 */
+
+.imagemFundo3{
+
+    position: relative; /* Establishes positioning context */
+    display: flex;
+    width: 100%;
+    max-width: 100vw;
+  
+   
+}
+
+
+
+.centro3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+     
+     
+    color: white;
+    width: 55%;
+    height: 100%; 
+     
+    top: 0; /* Aligns to the top */
+    right: 0; /* Aligns to the left */
+    
+    
+   
+  
+     
+    /* Align to the top */
+     
+    /* Align to the left */
+    background-image: linear-gradient(to left, rgb(0, 0, 0)73%, rgba(0, 0, 0, 0.027) 100%);
+
+}
+
+ 
+
+.centro3 h1{
+    font-size: 2.5vw;
+
+}
+
+.centro3 h5{
+    font-size: 1.5vw;
+
+}
+
+#btnCentro2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 121, 175);
+    word-wrap: break-word;
+    font-size: 1.2vw;
+
+    text-align: center;
+
+    
+
+    max-width: 20vw;
+    max-height: 4vw;
+
+
+   
+     
+     
+     
+}
+
+ 
+ 
+/* 
+.conteudoCentro3{
+    
+    margin-top: 50px;
+    margin-left: 90px;
+    width: 90%;
+} */
+
+
+
+
+/* CENTRO3 */
+
+
+
+
+
+/* W */
+
+.widgets{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+     
+    flex-direction: row;
+    justify-content: space-evenly;
+     
+     
+     
+      
+    word-wrap: break-word;
+     
+}
+
+ 
+
+.w{
+     
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+     
+    word-wrap: break-word;
+    margin: 1rem;
+    width: 100vw;
+    
+}
+
+.w img{
+   max-width: 100vw;
+   
+     
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+    background-color: rgb(34, 34, 34);
+     
+     
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+     
+}
+
+.links a{
+   margin-right: 15px;
+   margin-left: 15px;
+   text-decoration: none;
+   color: rgb(105, 156, 204);
+   
+   }
+
+   
+
+
+
+
+
+
+/* FOOTER */
+
+
+#btnNavAssinatura {
+    cursor: pointer;
+
+}
+
+#btnNavAssinatura img {
+    pointer-events: none;
+
+}
+
+
+
+
+
+#btnNavPesquisa {
+    cursor: pointer;
+
+}
+
+#btnNavPesquisa img {
+    pointer-events: none;
+
+}
+
+
+
+
+
+#btnNavIdioma {
+    cursor: pointer;
+
+}
+
+#btnNavIdioma img {
+    pointer-events: none;
+
+}
+
+
+
+
+
+
+
+
+#btnNavCategoria {
+    cursor: pointer;
+
+}
+
+#btnNavCategoria img {
+    pointer-events: none;
+
+}
+
+
+
+
+
+
+#btnNavConta {
+    cursor: pointer;
+
+}
+
+#btnNavConta img {
+    pointer-events: none;
+
+}
+
+
+#dropdown-menuBtnNav{
+    display: none;
+
+    
+}
+
+
+
+@media (max-width: 987px) {
+
+    .widgets{
+        display: flex;
+        width: 100%;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+         
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+         
+         
+          
+        word-wrap: break-word;
+         
+    }
+    
+     
+    
+    .w{
+         
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+         
+        word-wrap: break-word;
+        margin: 1rem;
+        
+        
+    }
+    
+    .w img{
+       max-width: 100vw;
+       
+         
+    }
+ 
+    
+  }
+
+
+
+
+
+  @media (max-width: 1155px) {
+
+ #navNormal{
+    display: none;
+ }
+
+ #navDropDown{
+    display: flex;
+ }
+
+
+ #menuDropDown:hover{
+    background-color: white;
+    color: black;
+
+
+ }
+
+ .seraQueVaiPraEsquerda {
+
+    position: absolute;
+    z-index: 1;
+    left: 0;
+
+}
+
+#dropdown-menuBtnNav{
+    display: none;
+
+    margin: 1rem;
+    border-radius: 12px;
+    background-color: rgba(27, 27, 27, 0.925);
+}
+
+.menuBtnNav{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+
+}
+
+
+
+
+
+
+#btnNav2:hover {
+    color: rgba(0, 0, 0, 0);
+    background-color: white;
+
+}
+
+
+#btnNavAssinatura2{
+    color: white;
+    
+
+}
+
+#btnNavAssinatura2:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+
+#btnNavPesquisa2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80%;
+
+
+
+    width: 45px;
+    height: 45px;
+
+
+
+}
+
+#btnNavPesquisa2:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+
+#btnNavIdioma2:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+
+
+}
+
+#btnIdioma2 {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+
+
+}
+
+#btnIdioma2:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+
+
+}
+
+
+
+#btnConta2 {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+
+
+}
+
+#btnConta2:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+
+
+}
+
+
+
+
+#btnNavCategoria2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80%;
+
+
+    width: 45px;
+    height: 45px;
+
+}
+
+
+#btnNavCategoria2:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+#btnNavCategoria2:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+
+
+#btnNavConta2 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 80%;
+
+
+    width: 45px;
+    height: 45px;
+
+
+}
+
+#btnNavConta2:hover {
+
+    background-color: white;
+
+}
+
+#btnNavPrime2:hover {
+
+    background-color: rgb(26, 152, 255)
+}
+
+
+
+
+ 
+    
+  }
+
+
+  @media (max-width: 513px) {
+
+    .btnCentroLogo img{
+        margin: 0.2rem;
+        width: 30vw;
+        
+        
+        
+         
+         
+    }
+
+
+    .textoCentro2{
+    
+        flex-direction: row;
+        width: 100vw;
+        margin-top: 30px;
+        text-align: center;
+         
+    
+      
+         
+         
+        
+    }
+
+    .botoesCentro2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+  @media (max-width: 650px) {
+
+    #btnNavPrime{
+        word-wrap: break-word;
+        font-size: 1.2vw;
+    
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+
+    #btnNavConta2 img{
+
+        width: 3vw;
+        height: 3vw;
+
+
+         
+
+    }
+
+    #btnNavCategoria2 img{
+
+        width: 3vw;
+        height: 3vw;
+
+
+    }
+
+    #btnNavIdioma2 img{
+
+        width: 1vw;
+        height: 1vw;
+
+
+    }
+
+    #btnNavIdioma2 p{
+
+        word-wrap: break-word;
+        font-size: 1.2vw;
+    
+        text-align: center;
+        margin: 0;
+    
+
+    }
+
+    #btnNavIdioma2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+         
+
+    }
+
+
+
+
+
+    #imgPesquisa{
+
+        width: 2vw;
+        height: 2vw;
+
+
+    }
+
+     #menuDropDown img{
+        width: 1vw;
+        height: 1vw;
+     }
+
+     #menuDropDown p{
+       font-size: 1vw;
+       margin: 0;
+     }
+
+     #menuDropDown{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+     }
+
+     #navbarNav button{
+
+        width: 5vw;
+        height: 5vw;
+        
+     }
+
+     .navbar-brand img{
+        width: 40px;
+        height: 7.5px;
+     }
+
+     
+
+
+  }
+
+
+
+  @media (max-width: 379px) {
+
+    .footer p{
+        font-size: x-small;
+    }
+
+  }

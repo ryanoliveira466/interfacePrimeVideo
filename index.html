@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem vindo(a) ao PrimeVideo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+   
+
+
+  <!-- NORMAL -->
+
+
+
+    <nav class="navbar bg-dark" id="navNormal">
+    <div class="container-fluid" style="margin-left: 30px; margin-right: 30px;">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo-min-remaster.png" alt="Logo" width="80px" height="15px"
+          class="d-inline-block align-text-center">
+        <button type="button" class="btn btn-dark" id="btnNav">Início</button>
+        <button type="button" class="btn btn-dark" id="btnNav">Filmes</button>
+        <button type="button" class="btn btn-dark" id="btnNav">Séries</button>
+        <button type="button" class="btn btn-dark" id="btnNav">Esportes</button>
+        <button type="button" class="btn btn-dark" id="btnNav">TV ao vivo</button>
+        <span style="color: grey;">|</span>
+        <button type="button" class="btn btn-dark" id="btnNavAssinatura"><img
+            src="img/assinaturaBlack-removebg-preview.png" width="24px" height="24px" alt="" srcset=""
+            id="imgAssinatura"> Assinaturas</button>
+
+
+
+
+
+
+      </a>
+
+      
+
+
+
+
+
+
+
+
+
+            <div class="dropdown">
+
+
+
+
+              <button type="button" class="btn btn-dark" id="btnNavPesquisa"><img src="img/icons8-pesquisar-30White.png"
+                  width="18px" height="18px" alt="" srcset="" id="imgPesquisa"></button>
+
+
+
+              <button class="btn btn-dark " id="btnNavIdioma" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PT <img src="img/icons8-divisa-para-baixo-30.png" width="15px" height="15px" alt="" srcset="">
+              </button>
+
+
+              <button type="button" class="btn btn-dark" id="btnNavCategoria"><img
+                  src="img/squareCircle-fotor-bg-remover-2024101192327.png" width="27px" height="25px" alt="" srcset=""
+                  id="imgCategoria"></button>
+
+
+              <button type="button" class="btn btn-dark" id="btnNavConta"><img src="img/perfil.svg" width="33px"
+                  height="33px" alt="" srcset="" id="imgConta"></button>
+
+
+              <button type="button" class="btn btn-primary" id="btnNavPrime"><p>Assine o Prime</p></button>
+
+
+
+
+
+
+
+            </div>
+
+    </div>
+
+
+
+
+
+  </nav>  
+
+
+
+
+
+
+  
+
+    <!-- DROPDOWN -->
+
+  <nav class="navbar navbar-expand bg-dark" id="navDropDown">
+    <div class="container-fluid" style="margin-left: 30px; margin-right: 30px;">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo-min-remaster.png" alt="Logo" width="80px" height="15px" class="d-inline-block align-text-center">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="me-auto">
+                
+                 
+                    <button class="btn btn-dark "  type="button" id="menuDropDown" data-bs-toggle="dropdown" aria-expanded="false">
+                        <p>Menu</p>  <img src="img/icons8-divisa-para-baixo-30.png" width="15px" height="15px" alt="" srcset="">
+                    </button>
+                     
+                 
+            </div>
+
+            <div class="dropdown">
+                <button type="button" class="btn btn-dark" id="btnNavPesquisa2">
+                    <img src="img/icons8-pesquisar-30White.png" width="18px" height="18px" alt="" id="imgPesquisa">
+                </button>
+                <button class="btn btn-dark" id="btnNavIdioma2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <p>PT</p>  <img src="img/icons8-divisa-para-baixo-30.png" width="15px" height="15px" alt="">
+                </button>
+                <button type="button" class="btn btn-dark" id="btnNavCategoria2">
+                    <img src="img/squareCircle-fotor-bg-remover-2024101192327.png" width="27px" height="25px" alt="" id="imgCategoria">
+                </button>
+                <button type="button" class="btn btn-dark" id="btnNavConta2">
+                    <img src="img/perfil.svg" width="33px" height="33px" alt="" id="imgConta">
+                </button>
+                <button type="button" class="btn btn-primary" id="btnNavPrime">Assine o Prime</button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+
+  <main>
+    <header>
+      <article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="imagemFundo1">
+
+    <img src="img/imagemFilmes.jpg" width="100%" alt="" srcset="">
+
+    <div class="seraQueVaiPraDireita">
+
+      <div id="dropdown-menu">
+        <div class="divIdioma">
+          <button type="button" class="btn" id="btnIdioma">Bahasa Indonesia</button>
+          <button type="button" class="btn" id="btnIdioma">Bahasa Melayu</button>
+          <button type="button" class="btn" id="btnIdioma">Dansk</button>
+          <button type="button" class="btn" id="btnIdioma">Deutsch</button>
+          <button type="button" class="btn" id="btnIdioma">English</button>
+          <button type="button" class="btn" id="btnIdioma">Español</button>
+          <button type="button" class="btn" id="btnIdioma">Français</button>
+          <button type="button" class="btn" id="btnIdioma">Italiano</button>
+        </div>
+        <div class="divIdioma">
+          <button type="button" class="btn" id="btnIdioma">Magyar</button>
+          <button type="button" class="btn" id="btnIdioma">Nederlands</button>
+          <button type="button" class="btn" id="btnIdioma">Norsk</button>
+          <button type="button" class="btn" id="btnIdioma">Polski</button>
+          <button type="button" class="btn" id="btnIdioma">Português (Brasil)</button>
+          <button type="button" class="btn" id="btnIdioma">Português (Portugal)</button>
+          <button type="button" class="btn" id="btnIdioma">Română</button>
+          <button type="button" class="btn" id="btnIdioma">Suomi</button>
+        </div>
+        <div class="divIdioma">
+          <button type="button" class="btn" id="btnIdioma">Svenska</button>
+          <button type="button" class="btn" id="btnIdioma">Türkçe</button>
+          <button type="button" class="btn" id="btnIdioma">Wikang Filipino</button>
+          <button type="button" class="btn" id="btnIdioma">Čeština</button>
+          <button type="button" class="btn" id="btnIdioma">Ελληνικά</button>
+          <button type="button" class="btn" id="btnIdioma">Русский</button>
+          <button type="button" class="btn" id="btnIdioma">עברית</button>
+          <button type="button" class="btn" id="btnIdioma">العربية</button>
+        </div>
+        <div class="divIdioma">
+          <button type="button" class="btn" id="btnIdioma">हिन्दी</button>
+          <button type="button" class="btn" id="btnIdioma">தமிழ்</button>
+          <button type="button" class="btn" id="btnIdioma">తెలుగు</button>
+          <button type="button" class="btn" id="btnIdioma">ไทย</button>
+          <button type="button" class="btn" id="btnIdioma">日本語</button>
+          <button type="button" class="btn" id="btnIdioma">简体中文</button>
+          <button type="button" class="btn" id="btnIdioma">繁體中文</button>
+          <button type="button" class="btn" id="btnIdioma">한국어</button>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="seraQueVaiPraDireita">
+
+      <div id="dropdown-conta">
+
+        <div class="conta">
+
+          <p style="display: flex; text-align: left; margin-left: 10px; color: grey;">SUA CONTA</p>
+
+          <button type="button" class="btn" id="btnConta">Fazer Login</button>
+          <button type="button" class="btn" id="btnConta">Ajuda</button>
+          <button type="button" class="btn" id="btnConta">Assista onde quiser</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="seraQueVaiPraEsquerda">
+
+      <div id="dropdown-menuBtnNav">
+
+        <div class="menuBtnNav">
+
+          <p style="display: flex; text-align: left; margin-left: 10px; color: grey;">Explorar</p>
+
+          <button type="button" class="btn " id="btnIdioma">Início</button>
+          <button type="button" class="btn " id="btnIdioma">Filmes</button>
+          <button type="button" class="btn " id="btnIdioma">Séries</button>
+          <button type="button" class="btn " id="btnIdioma">Esportes</button>
+          <button type="button" class="btn " id="btnIdioma">TV ao vivo</button>
+
+        </div>
+
+        <div class="menuBtnNav"> 
+
+          <p style="display: flex; text-align: left; margin-left: 10px; color: grey;">Assinaturas</p>
+
+          <button type="button" class="btn " id="btnNavAssinatura2"><img
+            src="img/assinaturaBlack-removebg-preview.png" width="24px" height="24px" alt="" srcset=""
+            id="imgAssinatura"> Explorar tudo</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="centro">
+
+       <div class="teste"> 
+
+        <h2>Filmes, séries, esportes e muito mais</h2>
+
+      
+        <h5 style="margin-top: 13px;">Assista a Amazon Originais premiados e aproveite entrega grátis e rápida em diversos produtos. Com o plano
+          anual
+          você parcela em até 12x de R$ 13,90/mês sem juros (R$ 166,80 por ano).</h5>
+
+
+       
+        
+          <button type="button" style="margin-top: 2vw;  " class="btn btn-primary" id="btnCentro">Já é Prime? Faça login</button>
+        <p style="margin: 0;">───────────&#160ou&#160 ───────────</p>
+          <button type="button"  style=" margin-bottom: 20px;" class="btn btn-primary" id="btnCentro">Experiemente 30 dias grátis*</button>
+       
+
+   
+
+        <h6>Após 30 dias, o Amazon Prime é renovado automaticamente por R$ 19,90/mês ou até 12x de R$ 13,90 (R$
+          166,80/ano).
+          Cancele a qualquer momento.</h6>
+
+
+        </div>
+
+
+      
+
+      <!-- <div class="conteudoCentro">
+
+        <h2>Filmes, séries, esportes e muito mais</h2>
+
+        <br>
+
+        <h5>Assista a Amazon Originais premiados e aproveite entrega grátis e rápida em diversos produtos. Com o plano
+          anual
+          você parcela em até 12x de R$ 13,90/mês sem juros (R$ 166,80 por ano).</h5>
+
+
+        <br>
+        <br>
+
+        <div class="botoesCentro">
+          <button type="button" class="btn btn-primary" id="btnCentro">Já é Prime? Faça login</button>
+        </div>
+
+
+        <span>───────────&#160ou&#160 ───────────</span>
+
+
+
+        <div class="botoesCentro">
+          <button type="button" class="btn btn-primary" id="btnCentro">Experiemente 30 dias grátis*</button>
+        </div>
+
+        <br>
+
+        <h6>Após 30 dias, o Amazon Prime é renovado automaticamente por R$ 19,90/mês ou até 12x de R$ 13,90 (R$
+          166,80/ano).
+          Cancele a qualquer momento.</h6>
+
+
+      </div> -->
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+  <div class="centro2">
+
+    <div class="textoCentro2">
+
+      <h1>Adicione canais que você ama na sua assinatura Prime</h1>
+
+      <br>
+
+      
+        <h4>Com o Prime Video Channels, os clientes Prime podem assinar os canais que amam sem compromissos de longo
+          prazo, ou seja, podendo cancelar a qualquer momento. Experimente canais selecionados por 7 dias grátis e
+          assista tudo no mesmo lugar, onde estiver.
+        </h4> 
+       
+      
+
+
+    </div>
+
+
+
+    <div class="botoesCentro2">
+
+      <div class="logoCentro">
+
+        <div class="btnCentroLogo"><img src="img/imgBtn/AMZN_MLP_image_logo_BR_ParamountPlus_426x294.jpg" alt=""
+            srcset=""  ></div>
+        <div class="btnCentroLogo"><img src="img/imgBtn/AMZN_MLP_image_logo_Template_426x294_BR_V1MAX.jpg" alt=""
+            srcset="" ></div>
+        <div class="btnCentroLogo"><img src="img/imgBtn/AMZN_MLP_image_logo_Premiere_426x294.jpg" alt="" srcset="" >
+        </div>
+        <div class="btnCentroLogo"><img src="img/imgBtn/AMZN_MLP_image_logo_Template_426x294Universal.jpg" alt="" ></div>
+
+      </div>
+
+      <div class="logoCentro">
+
+
+        <div class="btnCentroLogo"><img src="img/imgBtn/AMZN_MLP_image_logo_BR_DiscoveryPlus_426x294.jpg" alt=""
+            srcset="" ></div>
+        <div class="btnCentroLogo"><img src="img/imgBtn/AMZN_MLP_image_logo_BR_Looke_426x294.jpg" alt="" srcset="" >
+        </div>
+        <div class="btnCentroLogo"><img src="img/imgBtn/AMZN_MLP_image_logo_ES_Template_426x294Adrenalina.jpg" alt=""
+            srcset="" ></div>
+            <div class="btnCentroLogo"><img src="img/imgBtn/AMZN_MLP_image_logo_Template_426x294TeleCine.jpg" alt="" ></div>
+
+      </div>
+
+      <div class="logoCentro">
+
+        <div class="btnCentroLogo"><img src="img/imgBtn/AMZN_MLP_image_logo_Template_426x294Crunchyroll.jpg" alt=""
+            srcset="" ></div>
+        <div class="btnCentroLogo"><img src="img/imgBtn/AMZN_MLP_image_logo_Template_426x294Globo.jpg" alt="" ></div>
+        <div class="btnCentroLogo"><img src="img/imgBtn/AMZN_MLP_image_logo_Template_426x294MGM.jpg" alt="" srcset="" >
+        </div>
+        <div class="btnCentroLogo"><img src="img/imgBtn/AMZN_MLP_image_logo_Template_426x294Sony.jpg" alt="" srcset="" >
+        </div>
+
+      </div>
+
+   
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="imagemFundo3">
+    <img src="img/imagemFilme2.jpg" width="100%" alt="" srcset="">
+
+    <div class="centro3">
+
+      <div class="teste"> 
+
+      
+        <h1>Loja Prime Video</h1>
+
+       
+        <h5>Ainda mais filmes, agora disponíveis para compra ou aluguel - assinatura Prime não necessária.</h5>
+
+ 
+         
+          <button type="button" class="btn btn-primary" id="btnCentro2"><p style="display: flex; margin: 0; padding: 0;">Alugar ou comprar filmes</p> </button>
+
+
+
+        
+        
+
+
+        
+
+
+      
+
+         
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="widgets">
+
+   
+
+
+      <div class="w">
+
+        <img src="img/W1.png"  alt="" srcset="">
+        
+        <h1>Assista onde quiser</h1>
+        <h4>Assista no site ou no app Prime Video em seu celular, tablet ou seleção de Smart TVs — em até 3 dispositivos ao mesmo tempo.</h4>
+         
+         
+
+      </div>
+
+
+
+      <div class="w">
+
+        <img src="img/W2.png"  alt="" srcset="">
+
+        <h1>Baixe para assistir quando e onde quiser</h1>
+        <h4>Assista offline no app Prime Video ao baixar títulos em seu iPhone, iPad, tablet ou dispositivo Android.</h4>
+         
+        
+
+      </div>
+
+
+
+      <div class="w">
+
+        <img src="img/W3.png"  alt="" srcset="">
+
+        <h1>Economia de dados</h1>
+        <h4>Controle o uso de dados ao baixar e assistir a vídeos em uma seleção de celulares e tablets.</h4>
+         
+         
+
+
+      </div>
+
+    
+
+  </div>
+
+
+
+
+  <footer>
+    <div class="footer">
+      <img src="img/primeVideoFooter.png" alt="" srcset="">
+
+      <div class="links">
+        <a href="http://">Termos e aviso de privacidade</a>
+        <a href="http://">Envie-nos comentários</a>
+        <a href="http://">Help</a>
+      </div>
+
+      <p style="color: gray;">© 1996-2024, Amazon.com, Inc. ou suas afiliadas</p>
+      
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </article>
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+  <script src="script.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

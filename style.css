@@ -8,7 +8,8 @@ html body {
     margin: none;
     padding: none;
     box-sizing: border-box;
-
+     
+     
 
 
 }
@@ -516,6 +517,7 @@ html body {
     flex-wrap: wrap;
     margin-top: 13px;
     margin-bottom: 13px;
+    
 
 }
 
@@ -935,6 +937,7 @@ html body {
     #menuDropDown:hover {
         background-color: white;
         color: black;
+         
 
 
     }
@@ -1227,14 +1230,25 @@ html body {
      
 
       #dropdown-menu{
-        width: 500px;
-         
+        width: 550px; 
+      }
+
+      .divIdioma{
+        margin: 0.5rem;
+        
+      }
+
+      #rowToFit{
+        display: flex;
+        flex-direction: row;
       }
 
       #dropdown-menu button{
-        font-size: xx-small;
+         
          
       }
+
+
 
     
 }
@@ -1244,7 +1258,7 @@ html body {
 
 
 
-@media (max-height: 370px) {
+@media (max-height: 400px) {
 
     .imagemFundo3{
         height: 370px;
@@ -1259,6 +1273,8 @@ html body {
 
   
 }
+
+
 
 
 
@@ -1312,3 +1328,6 @@ html body {
     
      
 }
+
+
+ 

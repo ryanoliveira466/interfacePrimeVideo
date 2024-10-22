@@ -613,3 +613,10 @@ document.getElementById('dropdown-conta').addEventListener("pointerleave", funct
 
 
 
+
+/////////Avoid zooming
+
+ 
+
+
+ 

@@ -1,10 +1,14 @@
 document.getElementById('btnNavAssinatura').addEventListener("pointerover", function(){
     document.getElementById('btnNavAssinatura').innerHTML = `<img src="img/assinatura-removebg-preview.png" width="24px" height="24px" alt="" srcset="" id="imgAssinatura"> Assinaturas`
+    document.getElementById('btnNavAssinatura').style.backgroundColor = 'white'
+    document.getElementById('btnNavAssinatura').style.color = 'black'
     
 })
 
 document.getElementById('btnNavAssinatura').addEventListener("pointerleave", function(){
     document.getElementById('btnNavAssinatura').innerHTML = `<img src="img/assinaturaBlack-removebg-preview.png" width="24px" height="24px" alt="" srcset="" id="imgAssinatura"> Assinaturas`
+    document.getElementById('btnNavAssinatura').style.backgroundColor = 'black'
+    document.getElementById('btnNavAssinatura').style.color = 'white'
    
 })
 
@@ -16,15 +20,19 @@ document.getElementById('btnNavAssinatura').addEventListener("pointerleave", fun
 
 document.getElementById('btnNavPesquisa').addEventListener("pointerover", function(){
     document.getElementById('btnNavPesquisa').innerHTML = `<img src="img/icons8-pesquisar-30Black.png" width="18px" height="18px" alt="" srcset="" id="imgPesquisa">`
+    document.getElementById('btnNavPesquisa').style.backgroundColor = 'white'
     
 })
 
 document.getElementById('btnNavPesquisa').addEventListener("pointerleave", function(){
     document.getElementById('btnNavPesquisa').innerHTML = `<img src="img/icons8-pesquisar-30White.png" width="18px" height="18px" alt="" srcset="" id="imgPesquisa">`
+    document.getElementById('btnNavPesquisa').style.backgroundColor = 'black'
    
 })
 
 
+
+ 
 
 
 
@@ -36,12 +44,15 @@ document.getElementById('btnNavPesquisa').addEventListener("pointerleave", funct
 document.getElementById('btnNavCategoria').addEventListener("pointerover", function(){
     document.getElementById('btnNavCategoria').innerHTML = `<img src="img/squareCircleBlack.png"
           width="27px" height="25px" alt="" srcset="" id="imgCategoria">`
+          document.getElementById('btnNavCategoria').style.backgroundColor = 'white'
     
 })
 
 document.getElementById('btnNavCategoria').addEventListener("pointerleave", function(){
     document.getElementById('btnNavCategoria').innerHTML = `<img src="img/squareCircle-fotor-bg-remover-2024101192327.png"
           width="27px" height="25px" alt="" srcset="" id="imgCategoria">`
+
+          document.getElementById('btnNavCategoria').style.backgroundColor = 'black'
    
 })
 
@@ -408,11 +419,13 @@ document.getElementById('btnNavAssinatura2').addEventListener("pointerleave", fu
 
 document.getElementById('btnNavPesquisa2').addEventListener("pointerover", function(){
     document.getElementById('btnNavPesquisa2').innerHTML = `<img src="img/icons8-pesquisar-30Black.png" width="18px" height="18px" alt="" srcset="" id="imgPesquisa">`
+    document.getElementById('btnNavPesquisa2').style.backgroundColor = 'white'
     
 })
 
 document.getElementById('btnNavPesquisa2').addEventListener("pointerleave", function(){
     document.getElementById('btnNavPesquisa2').innerHTML = `<img src="img/icons8-pesquisar-30White.png" width="18px" height="18px" alt="" srcset="" id="imgPesquisa">`
+    document.getElementById('btnNavPesquisa2').style.backgroundColor = 'black'
    
 })
 
@@ -428,12 +441,16 @@ document.getElementById('btnNavPesquisa2').addEventListener("pointerleave", func
 document.getElementById('btnNavCategoria2').addEventListener("pointerover", function(){
     document.getElementById('btnNavCategoria2').innerHTML = `<img src="img/squareCircleBlack.png"
           width="27px" height="25px" alt="" srcset="" id="imgCategoria">`
+
+          document.getElementById('btnNavCategoria2').style.backgroundColor = 'white'
     
 })
 
 document.getElementById('btnNavCategoria2').addEventListener("pointerleave", function(){
     document.getElementById('btnNavCategoria2').innerHTML = `<img src="img/squareCircle-fotor-bg-remover-2024101192327.png"
           width="27px" height="25px" alt="" srcset="" id="imgCategoria">`
+
+          document.getElementById('btnNavCategoria2').style.backgroundColor = 'black'
    
 })
 

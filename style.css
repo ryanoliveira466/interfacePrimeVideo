@@ -822,6 +822,17 @@ html body {
 }
 
 
+#btnNavPesquisa2 {
+    cursor: pointer;
+
+}
+
+#btnNavPesquisa2 img {
+    pointer-events: none;
+
+}
+
+
 
 
 
@@ -848,6 +859,18 @@ html body {
 }
 
 #btnNavCategoria img {
+    pointer-events: none;
+
+}
+
+
+
+#btnNavCategoria2 {
+    cursor: pointer;
+
+}
+
+#btnNavCategoria2 img {
     pointer-events: none;
 
 }
@@ -1321,6 +1344,8 @@ html body {
 
 .body button{
     font-family: 'Amazon Ember Regular',sans-serif;
+    outline: none;
+    border: 0px solid;
 }
 
 #navDropDown,#navNormal{

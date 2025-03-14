@@ -2,7 +2,7 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg"  width=500>
 
-Atividade com o objetivo de replicar a interface de um site
+Atividade com o objetivo de replicar a interface de um site.
 
 ---
 
